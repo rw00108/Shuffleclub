@@ -1,0 +1,356 @@
+body { 
+background-color: white;
+color: white;
+font-family: 'Darker Grotesque', sans-serif;
+
+
+
+}
+
+.banner {
+    background-color: #84a59d;
+    color: white;
+    
+}
+
+
+.header {
+   
+    background-color:  #42273b;
+    color: white;
+}
+
+
+h1 {
+font-family: 'League Script', cursive;
+text-shadow: #f6bd60 1px 2px 2px;
+margin-top: 8px;
+}
+
+h2 {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #42273b;
+    text-align: center;
+    }
+
+
+
+h4 {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 8px;
+    font-weight: 100;
+    color: #42273b;
+    text-align: center;
+    font-size: 20px;
+
+
+
+}
+
+.card {
+    color: black;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 50px;
+    border:none;
+    
+
+}
+
+.card-body { 
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+}
+
+
+
+.card-title {
+text-align: center;
+
+}
+
+
+#currentDifficulty{
+margin-left: 90px;
+}
+
+
+#cookie {
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+    background-color: none;
+}
+
+#spacebar {
+    background-color: white ;
+    color: #f5cac3;
+    border: 1px 1px 1px 1px;
+    border-color: #f5cac3;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    
+
+ }
+
+ #spacebar:hover {
+    background-color: #84a59d;
+    color: white;
+    border: 0px 0px 0px 0px;
+    border-color: white;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif; 
+ }
+
+ #spacebar:active {
+    transform-origin: 30px;
+    background-color: #84a59d;
+    color: white;
+    border: 0px 0px 0px 0px;
+    border-color: #f6bd60;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif; 
+    -webkit-box-shadow: 0 0 20px #f6bd60;
+    -moz-box-shadow: 0 0 20px #f6bd60;
+         box-shadow: 0 0 20px #f6bd60;
+ }
+
+.hidden {
+ display:none;
+ }
+
+ .show {
+    display: flex;
+ }
+
+.resumebutton {
+    background-color: #9EE493 ;
+    color: white;
+    border: 1px 1px 1px 1px;
+    border-color: #8d8d8d;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.resumebutton {
+    background-color: white ;
+    color: #9EE493;
+    border: 1px 1px 1px 1px;
+    border-color: #8d8d8d;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.stopbutton {
+    
+    background-color: #84a59d ;
+    color: white;
+    border: 1px 1px 1px 1px;
+    border-color: #ABC8C0;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.stopbutton:hover {
+    
+    background-color: white ;
+    color:  #84a59d;
+    border: 1px 1px 1px 1px;
+    border-color: #ABC8C0;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 3rem; /* Added */
+    margin-top: 3rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.timer {
+background-color: none;
+color: #84a59d;
+text-align: center;
+vertical-align: middle;
+font-family: 'Darker Grotesque', sans-serif;
+font-size: xx-large;
+
+}
+
+.progress {
+    border-radius: 0px;
+}
+
+.progressBar {
+    width: 0%;
+    background-color: #f28482;
+    border-radius: 0px;
+}
+
+
+
+.Previous .card-body p, #previousDifficulty {
+display: none;
+}
+
+.Previous img {
+display: none ; 
+}
+
+
+.NextUp img {
+    display: none ; 
+    }
+
+#nextCardbody {
+    border: none;
+}
+
+#nextCard-value, #currentCard-value  {
+    text-align: center;
+}
+
+#nextCard-duration {
+    display:none;
+}
+
+#totalPoints {
+    color: black;
+    padding-left: 10px;
+}
+
+#currentCard-difficulty {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#nextCard-difficulty {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#stop, #resume {
+
+    display: none;
+}
+
+#donepile {
+    color: black;
+
+}
+
+.gangnam {
+    width: 286px;
+    height: 556px;
+    overflow-y: scroll;
+}
+
+#myGlower {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;    
+    -webkit-transition: border 0.1s linear, box-shadow 0.1s linear;
+       -moz-transition: border 0.1s linear, box-shadow 0.1s linear;
+       transition: ease-in 1s;
+}
+
+#myGlower.active {
+    border-color: #f6bd60;
+    -webkit-box-shadow: 0 0 20px #f6bd60;
+       -moz-box-shadow: 0 0 20px #f6bd60;
+            box-shadow: 0 0 20px #f6bd60;
+    transition: ease-in 1s;
+}
+
+/* Buttons */
+
+.btn-success { 
+    color: white;
+    background-color: #84a59d;
+    border-color: #84a59d;
+    border-radius: 0;
+}
+
+.btn-danger { 
+    color: white;
+    background-color: #f28482;
+    border-color: #f28482;
+    border-radius: 0;
+}
+
+.btn-primary { 
+    color: white;
+    background-color: #f6bd60;
+    border-color: #f6bd60;
+    border-radius: 0;
+}
+
